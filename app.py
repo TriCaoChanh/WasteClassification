@@ -92,14 +92,8 @@ elif mode == 'Import Images':
         st.image(pic, caption="Uploaded Image")
 elif mode == 'Camera':
     webrtc_streamer(key="example", video_frame_callback=callback_predict)
-
-    
 else:
     st.error("Please Select the Mode")
 
-
-
-
-
-
 st.markdown('---------------------------------------------------------------')
+st.write('Created by Tri Cao Chanh 2023')
